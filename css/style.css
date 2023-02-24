@@ -43,7 +43,8 @@ img {
 
 #section_one {
   height: 30vh;
-  margin: 24px 0px;
+  margin-top: 24px;
+  margin-bottom: 24px;
   width: 90%;
   display: grid;
   place-items: center;
