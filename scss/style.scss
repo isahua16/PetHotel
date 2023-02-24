@@ -42,7 +42,7 @@ img {
 }
 
 #section_one {
-  height: 30vh;
+  min-height: 30vh;
   margin-top: 24px;
   margin-bottom: 24px;
   width: 90%;
@@ -68,7 +68,6 @@ img {
 #section_two {
   display: grid;
   place-items: center;
-  min-height: 40vh;
   width: 100%;
   background-color: #f0c50c;
   > img {
