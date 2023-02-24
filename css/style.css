@@ -27,6 +27,15 @@ img {
   height: 40px;
 }
 
+#page_nav {
+  display: none;
+  justify-self: end;
+}
+#page_nav > a {
+  text-decoration: none;
+  color: black;
+}
+
 #main {
   display: grid;
   place-items: center;
@@ -84,6 +93,16 @@ img {
 }
 
 @media only screen and (min-width: 800px) {
+  #menu {
+    display: none;
+  }
+  #page_nav {
+    width: 300px;
+    display: grid;
+    align-items: center;
+    justify-items: end;
+    grid-template-columns: 1fr 1fr;
+  }
   #main {
     grid-template-columns: 1fr 1fr;
   }
